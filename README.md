@@ -53,18 +53,3 @@ This system provides a robust platform for managing student academic information
 - Error handling
 - Data sanitization
 
-## Getting Started
-
-[Installation and setup instructions will be added here]
-
-## Contributing
-
-[Contribution guidelines will be added here]
-
-## License
-
-[License information will be added here]
-
-## Authors
-
-[Author information will be added here]
