@@ -64,6 +64,3 @@ A comprehensive Student Information System built with Laravel, implementing MVC 
 - ⚠️ Error handling
 - 🧹 Data sanitization
 
-## 📦 Installation
-
-1. Clone the repository
