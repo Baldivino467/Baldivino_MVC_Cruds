@@ -1,55 +1,69 @@
-# Student Information System (SIS)
+# 🎓 Student Information System (SIS)
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white"/>
+  <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Font_Awesome-339AF0?style=for-the-badge&logo=fontawesome&logoColor=white"/>
+</div>
+
+## 📚 Overview
 
 A comprehensive Student Information System built with Laravel, implementing MVC architecture for managing student records, subjects, enrollments, and grades for a private high school.
 
-## Project Overview
+### 🎯 Key Features
 
-This system provides a robust platform for managing student academic information with role-based access control (RBAC) for administrators and students.
+#### 🔐 Authentication & Authorization
+- Secure login system for administrators and students
+- Role-based access control (RBAC)
+  - **Administrators**: Full system access
+  - **Students**: Limited access (Grades module)
 
-## Key Features
+#### 📋 Core Modules
 
-### Authentication & Authorization
-- Secure login system for both administrators and students
-- Role-based access control
-  - Administrators: Full access to all modules and CRUD operations
-  - Students: Limited access (Grades module only)
-
-### Core Modules
-
-1. **Student Management**
-   - Complete CRUD functionality
+1. **👥 Student Management**
+   - Complete CRUD operations
    - Student profile management
    - Data validation and error handling
 
-2. **Subject Management**
+2. **📚 Subject Management**
    - Course/subject creation and management
    - Curriculum planning tools
-   - Validation and error handling
+   - Subject code and units tracking
 
-3. **Enrollment System**
+3. **📝 Enrollment System**
    - Student enrollment processing
    - Class scheduling
    - Enrollment status tracking
-   - Data validation and error handling
+   - Semester management
 
-4. **Grading System**
+4. **📊 Grading System**
    - Grade entry and management
    - BukSU grading system implementation
-   - Grade viewing for students
+   - Student grade viewing portal
    - Comprehensive error handling
 
-## Technical Implementation
+## 🛠 Technical Stack
 
+### Backend
 - **Framework**: Laravel
 - **Architecture**: Model-View-Controller (MVC)
 - **Database**: MySQL
-- **Frontend**: Blade templating engine with Bootstrap
+- **Authentication**: Laravel Breeze
 
-## Security Features
+### Frontend
+- **Template Engine**: Blade
+- **CSS Framework**: Bootstrap
+- **Icons**: Font Awesome 5
+- **DataTables**: Server-side processing
 
-- Authentication middleware
-- Role-based authorization
-- Form validation
-- Error handling
-- Data sanitization
+### Security Features
+- ✅ Authentication middleware
+- 🔒 Role-based authorization
+- 🛡️ Form validation
+- ⚠️ Error handling
+- 🧹 Data sanitization
 
+## 📦 Installation
+
+1. Clone the repository
